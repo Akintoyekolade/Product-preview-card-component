@@ -26,10 +26,21 @@
     h1 {
         font-family: 'Fraunces', serif;
         line-height: 33px;
+        font-size: 32px;
     }
 
     p {
         font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .dark-blue-text {
+        color: #1A2428;
+    }
+
+    .dark-grayish-blue-text {
+        color: #6C7289;
     }
 
     .image-desktop {
@@ -59,7 +70,31 @@
         font-weight: 500;
         color: #6C7289;
         margin-bottom: 12px;
+    }
 
+    .product-detail-title h1 {
+        margin-bottom: 14px;
+    }
+
+    .product-detail-description p{
+        line-height: 23px;
+        margin-bottom: 24px;
+        font-weight: 500;
+    }
+
+    .price {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .price h1 {
+        color: #3C8067;
+        margin-right: 20px;
+    }
+
+    .discount {
+        text-decoration: line-through;
     }
 
 }
