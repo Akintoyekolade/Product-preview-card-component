@@ -97,4 +97,52 @@
         text-decoration: line-through;
     }
 
+    .primary-button {
+        padding: 16px;
+        min-width: 100%;
+        background-color: #3C8067;
+        font-family: montserrat;
+        font-weight: 500;
+        font-size: 14px;        
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        transition: 0.3s;
+    }
+
+    .primary-button:hover {
+        cursor: pointer;
+        background-color: #1A4031;
+    }
+
+    .primary-button img {
+        padding-right: 12px;
+    }
+
+    footer {
+        color: rgb(48,59,90) ;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 32px;
+        padding: 0px 16px;
+    }
+
+    footer a {
+        color:  rgb(48,59,90);
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    footer .div-line {
+        padding: 0px 8px;
+    }
+
+
 }
